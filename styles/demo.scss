@@ -1,0 +1,37 @@
+// varriable declaration
+$header-bgcolor: red;
+$main-bgcolor: green;
+$footer-bgcolor:blue;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    background-color: $header-bgcolor;
+}
+
+// nav style
+// nesting 
+nav{
+    margin-top: 20px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            margin: 0 15px;
+            
+        }
+    }
+}
+
+
+main{
+    background-color: $main-bgcolor;
+}
+footer{
+    background-color: $footer-bgcolor;
+}
