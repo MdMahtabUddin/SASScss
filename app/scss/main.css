@@ -11,4 +11,10 @@ h1, h2 {
 
 main {
   background-color: red;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  color: rgb(241, 239, 239);
 }/*# sourceMappingURL=main.css.map */

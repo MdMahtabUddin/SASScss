@@ -4,3 +4,14 @@
 main{
     background-color: index.$header-bgcolor;
 }
+
+@mixin para-style($size, $style, $color){
+    font-size: $size;
+    text-align: $style;
+    color: $color;
+}
+
+// mixin er varriable pass  ($varriablename)
+p{
+    @include para-style(20px , left, rgb(241, 239, 239) );
+}
