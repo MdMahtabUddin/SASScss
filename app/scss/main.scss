@@ -1,0 +1,6 @@
+@forward './base/index';
+@use './util/index';
+// jehetu direct use kora hobe tai use behar kora 
+main{
+    background-color: index.$header-bgcolor;
+}
